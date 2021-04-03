@@ -1,8 +1,0 @@
-name: TeraProject #Environment name, to update the env run: conda env update --file environment.txt
-dependencies:
-  - python=3.8.5
-  - pip:
-    - jupyterlab==2.2.6 # Development IDE
-    - streamlit==0.79.0 # Lib to build a fast and simple ML webapp
-    - seaborn==0.11.0 # Plot lib
-    - mlxtend==0.18.0 #Apriori lib
