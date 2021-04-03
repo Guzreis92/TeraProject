@@ -1,2 +1,0 @@
-$ git clone https://github.com/Guzreis92/TeraProject.git
-$ cd python-getting-started
