@@ -12,7 +12,7 @@ def recomenda(produto):
     df = dataset[dataset['antecedents'].str.contains(cesta)] 
     return df[['antecedents','consequents']]
 
-def app():
+def main():
     
     #Título do Sidebar
     st.title("Recomendação de cesta com Algoritmo Apriori")
@@ -36,4 +36,4 @@ def app():
     
 if __name__ == "__main__":
     # command to run the app: streamlit run app.py
-    app()
+    main()
