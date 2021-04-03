@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 #Importação do dataset:
-dataset = pd.read_csv('data/datasetfinal.csv')
+dataset = pd.read_csv('datasetfinal.csv')
 
 
 def recomenda(produto):
