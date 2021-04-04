@@ -29,11 +29,11 @@ def recomenda(produto,dataset):
 def app():
 
     from PIL import Image
-    foto = Image.open('foto.png')
+    foto = Image.open('Groceries.jpeg')
     #st.image(foto, caption='Logo do Streamlit', use_column_width=False)
     
     col1, col2, col3 = st.beta_columns(3)
-    foto = Image.open('foto.png')#inserindo na coluna 2 
+    foto = Image.open('Groceries.jpeg')#inserindo na coluna 2 
     col2.image(foto, use_column_width=True)
     
     #Título do Sidebar
