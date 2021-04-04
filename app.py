@@ -5,17 +5,17 @@ import joblib
 
 def carregadataset(estado):
     if estado == "São Paulo":
-        return pd.read_csv('data/datasetfinalsp.csv')
+        return pd.read_csv('datasetfinalsp.csv')
     elif estado == "Minas Gerais":
-        return pd.read_csv('data/datasetfinalmg.csv')
+        return pd.read_csv('datasetfinalmg.csv')
     elif estado == "Bahia":
-        return pd.read_csv('data/datasetfinalba.csv')
+        return pd.read_csv('datasetfinalba.csv')
     elif estado == "Rio Grande do Sul":
-        return pd.read_csv('data/datasetfinalrs.csv')
+        return pd.read_csv('datasetfinalrs.csv')
     elif estado == "Goiás":
-        return pd.read_csv('data/datasetfinalgo.csv')
+        return pd.read_csv('datasetfinalgo.csv')
     elif estado == "Pará":
-        return pd.read_csv('data/datasetfinalpa.csv')
+        return pd.read_csv('datasetfinalpa.csv')
 
 #Importação do dataset:
 #dataset = pd.read_csv('data/datasetfinal.csv')
